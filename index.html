@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a class="logo" href="#">Logo</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">PLATFORM</a></li>
+                    <li><a href="#">SOLUTIONS</a></li>
+                    <li><a href="#">PARTNERS</a></li>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">BLOGS</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                    <li><a href="#">SIGN IN</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <button>REQUEST A DEMO</button>
+        </nav>
+
+        <div class="text">
+            <h1>Quis Ipsum Cea <br> Lorem Ipsum</h1>
+            <p>Company provides lenders, business with <br> actionable credit intelligence on private entities they <br> need to improve trust and increase their lending and <br> trading activity.</p>
+        </div>
+
+        <div class="image1">
+            <img src="images/big-shopping-sale.svg" alt="">
+        </div>
+    </section>
+
+    <!-- ---------Middle-Section1------- -->
+
+    <section class="middle-section1">
+        <p>INDUSTRIES</p>
+        <div class="mid-sec1">
+            <i class="fa-sharp fa-solid fa-building-columns"></i>
+            <ul>
+                <li><a href="#">CEea elit quis</a></li>
+                <li><a href="#">Eea elit quis</a></li>
+                <li><a href="#">Eea elit quis</a></li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="mid-text">
+            <h1>Tagline Content Line <br> Goes Here</h1>
+            <p>Company provides lenders, businesses with <br> actionable credit intelligence on private entities <br> they need to improve trust and increase their <br> lending and trading activity.</p>
+            <p>VIEW SOLUTIONS </p>
+        </div>
+
+        <div class="image2">
+            <img src="images/image.jpg" alt="" height="400px" width="400px">
+        </div>
+
+    </section>
+
+    <!-------- Middle-Section2 -------->
+
+    <section class="middle-section2">
+        
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem vel odit, laudantium et culpa?</p>
+                <a href="">Read More</a>
+            </div>
+    
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem vel odit, laudantium et culpa?</p>
+                <a href="">Read More</a>
+            </div>
+    
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem vel odit, laudantium et culpa?</p>
+                <a href="">Read More</a>
+            </div>
+    
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni exercitationem vel odit, laudantium et culpa?</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+
+        <div class="test">
+            <h1>Testimonials</h1>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="image">
+                    <img src="images/image.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="name">- Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------- Footer -------->
+
+    <section class="footer">
+        <div class="address">
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. Veniam necessitatibus <br> incidunt optio iste fugit dolore dolores <br> libero voluptatibus eius quis.</p>
+
+            <button>GET STARTED</button>
+        </div>
+        
+        <div class="links1">
+            <a href="">Investors</a>
+            <a href="">News</a>
+            <a href="">Blogs</a>
+            <a href="">Case Study</a>
+        </div>
+
+        <div class="links2">
+            <a href="">Team</a>
+            <a href="">Pricing</a>
+            <a href="">Support</a>
+            <a href="">Product Portfolio</a>
+        </div>
+
+        <div class="links3">
+            <a href="">Compliance</a>
+            <a href="">Security</a>
+            <a href="">Contact us</a>
+        </div>
+
+        <div class="link">
+            <h4>Exsting Users</h4>
+            <button>LOGIN</button>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Code -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
